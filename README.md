@@ -1,4 +1,5 @@
 cv
 ==
 
-http://thomas.tourlourat.com/
+* [English version](http://www.tourlourat.com/cv/english.html)
+* [French version](http://www.tourlourat.com/cv/francais.html)
