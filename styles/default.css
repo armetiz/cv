@@ -38,6 +38,10 @@ ul {
     padding-left: 20px;
 }
 
+a {
+    text-decoration: underline;
+}
+
 .container > footer p {
     text-align: center; /* center align it with the container */
 }
