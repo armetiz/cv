@@ -1,29 +1,6 @@
-@font-face {
-    font-family: "quicksand";
-    src: url('../fonts/quicksand_book-webfont.eot');
-    src: url('../fonts/quicksand_book-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/quicksand_book-webfont.woff') format('woff'),
-         url('../fonts/quicksand_book-webfont.ttf') format('truetype'),
-         url('../fonts/quicksand_book-webfont.svg#CgFuturaMaxiBdRegular') format('svg');
-}
-
-@font-face {
-    font-family: "quicksand_bold";
-    src: url('../fonts/quicksand_bold-webfont.eot');
-    src: url('../fonts/quicksand_bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/quicksand_bold-webfont.woff') format('woff'),
-         url('../fonts/quicksand_bold-webfont.ttf') format('truetype'),
-         url('../fonts/quicksand_bold-webfont.svg#CgFuturaMaxiBdRegular') format('svg');
-}
-
 html, body {
-    background-color: #eee;
-    font-family: "quicksand", "Open Sans", "Helvetica Neue", Helvetica, Arial
-}
-
-h1, h2, h3, h4,
-strong, .experience .header {
-    font-family: "quicksand_bold";
+    background-color: #EAEAEA;
+    font-family: "Arial";
 }
 
 body {
@@ -31,15 +8,19 @@ body {
 }
 
 *, li {
-    color: #404040;
+    color: #575757;
 }
 
 ul {
     padding-left: 20px;
 }
 
-a {
-    text-decoration: underline;
+h1, h2, h3, .location, .status {
+    color: #444;
+}
+
+strong {
+    color: #444;
 }
 
 .container > footer p {
@@ -82,6 +63,14 @@ a {
     font-size: 1.2em;
 }
 
+#experiences .experience {
+    margin-bottom: 50px;
+}
+
+#experiences .experience:last-child {
+    margin-bottom: 0;
+}
+
 h1 {
     text-align: center;
     margin-bottom: 30px;
@@ -106,7 +95,9 @@ h3, h4 {
 }
 
 .content a, .content a:hover, .content a:active, .content a:visited {
-    color: black;
+    color: #575757;
+    border-bottom: 1px dashed #ABABAB;
+    text-decoration: none;
 }
 
 /* Page header tweaks */
